@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.aboutImage {
+  max-width: 300px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.description {
+  max-width: 600px;
+  line-height: 1.6;
+  margin: 0 20px;
+}
+
+@media (width >= 800px) {
+  .content {
+    gap: 40px;
+  }
+  
+  .aboutImage {
+    max-width: 400px;
+  }
+  
+  .description {
+    max-width: 800px;
+    margin: 0 40px;
+  }
+}
+
+@media (width >= 1400px) {
+  .content {
+    gap: 60px;
+  }
+  
+  .aboutImage {
+    max-width: 500px;
+  }
+  
+  .description {
+    max-width: 1000px;
+    margin: 0;
+  }
+}
