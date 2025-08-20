@@ -7,7 +7,10 @@ import SkillList from '../../common/SkillList';
 import reactIcon from '../../assets/react.png';
 import nodeIcon from '../../assets/node-js.png';
 import sassIcon from '../../assets/sass.png';
+<<<<<<< HEAD
 import tailwindIcon from '../../assets/tailwind.png'
+=======
+>>>>>>> 26dfeb38730f3ca6b272dd1716250b223230d24d
 
 //Seção exibe habilidades principais com ícones e descrições.
 function Skills() {
@@ -25,7 +28,10 @@ function Skills() {
       <hr />
       <div className={styles.skillList}>
         <SkillList src={cssIcon} skill="CSS" />
+<<<<<<< HEAD
         <SkillList src={tailwindIcon} skill="Tailwind" />
+=======
+>>>>>>> 26dfeb38730f3ca6b272dd1716250b223230d24d
         <SkillList src={sassIcon} skill="Sass" />
       </div>
       

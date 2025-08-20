@@ -1,10 +1,13 @@
 import styles from './ProjectsStyles.module.css';
+<<<<<<< HEAD
 import prototipoFestival from '../../assets/prototipo-festival.png';
 import painelAdmin from '../../assets/painel-admin.png';
 import agendaDepil from '../../assets/agenda-bsb.png';
 import finanzen from '../../assets/finanzen.png';
 import deliciasHorti from '../../assets/delicias-horti.png';
 import testeQuiz from '../../assets/quiz-tds2.png';
+=======
+>>>>>>> 26dfeb38730f3ca6b272dd1716250b223230d24d
 import bsbDepil from '../../assets/Depilaçao Brasilia.png';
 import shopjs from '../../assets/Shop-js.png';
 import speakAcademy from '../../assets/speak-academy.png'; 
@@ -19,6 +22,7 @@ function Projects() {
       <h1 className="sectionTitle">Projetos</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
+<<<<<<< HEAD
           src={prototipoFestival}
           link="https://github.com/tiagovidao/prototipo-site-festival"
           h3="Festival de Dança"
@@ -109,6 +113,8 @@ function Projects() {
           }
         />
         <ProjectCard
+=======
+>>>>>>> 26dfeb38730f3ca6b272dd1716250b223230d24d
           src={bsbDepil}
           link="https://github.com/tiagovidao/Depilacao-Brasilia"
           h3="Depilação Brasília"
@@ -162,7 +168,11 @@ function Projects() {
               <strong>Projeto de Estudos</strong>
               <br />
               <br />
+<<<<<<< HEAD
               Organizador de Tarefas
+=======
+              Oraganizador de Tarefas
+>>>>>>> 26dfeb38730f3ca6b272dd1716250b223230d24d
               <br />
               HTML|CSS|React|Sass
             </>
