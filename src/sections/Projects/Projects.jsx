@@ -1,28 +1,24 @@
 import styles from './ProjectsStyles.module.css';
-<<<<<<< HEAD
 import prototipoFestival from '../../assets/prototipo-festival.png';
 import painelAdmin from '../../assets/painel-admin.png';
 import agendaDepil from '../../assets/agenda-bsb.png';
 import finanzen from '../../assets/finanzen.png';
 import deliciasHorti from '../../assets/delicias-horti.png';
 import testeQuiz from '../../assets/quiz-tds2.png';
-=======
->>>>>>> 26dfeb38730f3ca6b272dd1716250b223230d24d
 import bsbDepil from '../../assets/Depilaçao Brasilia.png';
 import shopjs from '../../assets/Shop-js.png';
-import speakAcademy from '../../assets/speak-academy.png'; 
+import speakAcademy from '../../assets/speak-academy.png';
 import toDo from '../../assets/todo-react.png';
 import studentsList from '../../assets/type-students.png';
 import ProjectCard from '../../common/ProjectCard';
 
-//Seção de projetos, exibe imagens, títulos, descrições e links para repositórios do GitHub.
+// Seção de projetos, exibe imagens, títulos, descrições e links para repositórios do GitHub.
 function Projects() {
   return (
     <section id="projects" className={styles.container}>
       <h1 className="sectionTitle">Projetos</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-<<<<<<< HEAD
           src={prototipoFestival}
           link="https://github.com/tiagovidao/prototipo-site-festival"
           h3="Festival de Dança"
@@ -31,7 +27,7 @@ function Projects() {
               <strong>Projeto Real</strong>
               <br />
               <br />
-             Protótipo de Site
+              Protótipo de Site
               <br />
               React | Node | Javascript | Typescript | Tailwind
             </>
@@ -61,7 +57,7 @@ function Projects() {
               <strong>Projeto Real</strong>
               <br />
               <br />
-             Para organizadores/gestores do festival de dança
+              Para organizadores/gestores do festival de dança
               <br />
               HTML | CSS | Javascript
             </>
@@ -76,7 +72,7 @@ function Projects() {
               <strong>Projeto Real</strong>
               <br />
               <br />
-             Sistema de agendamento para depiladoras
+              Sistema de agendamento para depiladoras
               <br />
               React | Typescript | Tailwind
             </>
@@ -91,7 +87,7 @@ function Projects() {
               <strong>Projeto de Controle Financeiro</strong>
               <br />
               <br />
-             Sistema de Rastreamento de Finanças
+              Sistema de Rastreamento de Finanças
               <br />
               React | Typescript | Tailwind | Python
             </>
@@ -106,15 +102,13 @@ function Projects() {
               <strong>Projeto Mobile de Compras</strong>
               <br />
               <br />
-             App para compras de hortaliças
+              App para compras de hortaliças
               <br />
-              React Native | Typescript | CSS 
+              React Native | Typescript | CSS
             </>
           }
         />
         <ProjectCard
-=======
->>>>>>> 26dfeb38730f3ca6b272dd1716250b223230d24d
           src={bsbDepil}
           link="https://github.com/tiagovidao/Depilacao-Brasilia"
           h3="Depilação Brasília"
@@ -136,8 +130,8 @@ function Projects() {
           p={
             <>
               <strong>Projeto de Estudos</strong>
-             <br />
-             <br />
+              <br />
+              <br />
               Loja de artes online
               <br />
               HTML|CSS|Javascript
@@ -150,7 +144,7 @@ function Projects() {
           h3="Speak Academy"
           p={
             <>
-            <strong>Projeto de Estudos</strong>
+              <strong>Projeto de Estudos</strong>
               <br />
               <br />
               Cursos de línguas online
@@ -168,11 +162,7 @@ function Projects() {
               <strong>Projeto de Estudos</strong>
               <br />
               <br />
-<<<<<<< HEAD
               Organizador de Tarefas
-=======
-              Oraganizador de Tarefas
->>>>>>> 26dfeb38730f3ca6b272dd1716250b223230d24d
               <br />
               HTML|CSS|React|Sass
             </>
