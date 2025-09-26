@@ -6,11 +6,10 @@ import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
-import CV from '../../assets/TiagoWilliamCurriculo2025.pdf';
+import CV from '../../assets/TiagoVidaoCurriculo2025.pdf';
 import { useTheme } from '../../common/ThemeContext';
 import { useTypeWriter } from '../../hooks/useTypeWriter';
 
-// Seção Hero, exibe as informações principais.
 function Hero() {
   const { theme, toggleTheme } = useTheme();
   const typingText = useTypeWriter('Desenvolvedor FrontEnd', 100);
